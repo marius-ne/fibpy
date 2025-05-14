@@ -3,7 +3,7 @@
 [s1]: https://img.shields.io/badge/licence-GPL%203.0-blue.svg
 [li]: https://raw.githubusercontent.com/matt77hias/fibpy/master/LICENSE.txt
 
-# fibpy - Fibonacci spirals in Python.
+# fibpy - Uniform sphere sampling - Fibonacci spirals in Python.
 ## This is the updated and maintained version of the original repository created by [@matt77hias](https://github.com/matt77hias). All credit goes to them for the original creation.
 You can find the now archived original version [here](https://github.com/matt77hias/fibpy).
 
