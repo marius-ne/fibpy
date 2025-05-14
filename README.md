@@ -4,11 +4,13 @@
 [li]: https://raw.githubusercontent.com/matt77hias/fibpy/master/LICENSE.txt
 
 # fibpy
+## This is the updated and maintained version of the original repository created by [@matt77hias](https://github.com/matt77hias). All credit goes to them for the original creation.
+You can find the now archived original version [here](https://github.com/matt77hias/fibpy).
 
 ## About
 Fibonacci spiral sampling (Quasi-Monte Carlo techniques) utilities.
 
-## Use
+## Examples
 
 ### Sampling in unit circle (with jagged boundary)
 <p align="center">
@@ -45,9 +47,10 @@ Fibonacci spiral sampling (Quasi-Monte Carlo techniques) utilities.
 </p>
 <p align="center">Default perturbation - Random perturbation</p>
 
-```python
-# Code
-test.test()
+## How to use
+First install the requirements via a virtual environment. Then, for visualizing, simply run: 
+```bash
+(.venv)$ python src/test.py 
 ```
 
 ## Bibliography
