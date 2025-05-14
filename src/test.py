@@ -10,3 +10,6 @@ def test(nb_samples=256):
         vis_samples_3D(fibonacci_spiral_samples_on_unit_hemisphere(nb_samples=nb_samples, mode=mode))
         vis_samples_3D(fibonacci_spiral_samples_on_unit_sphere(nb_samples=nb_samples, mode=mode))
         vis_samples_3D(fibonacci_spiral_cosine_weighted_samples_on_unit_hemisphere(nb_samples=nb_samples, mode=mode))
+
+if __name__ == "__main__":
+    test()

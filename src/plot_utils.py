@@ -49,8 +49,8 @@ def set_equal_aspect_ratio_3D(ax, xs, ys, zs, alpha=1.5, delta=0.0):
     ax.set_zlim(c[2] - d, c[2] + d)
      
 def vis_samples_3D(ss, fname=None):
-    plt.figure()
-    ax = plt.gca(projection='3d')
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
     ax.scatter(ss[:,0], ss[:,1], ss[:,2])
     set_equal_aspect_ratio_3D(ax, ss[:,0], ss[:,1], ss[:,2])
     ax.set_xlabel("x")
