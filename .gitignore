@@ -5,6 +5,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+src/fibonacci_ball.py
+.venv/
 ######################################################################
 # Python Tools for Visual Studio (PTVS)
 ######################################################################
